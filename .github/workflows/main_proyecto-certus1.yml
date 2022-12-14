@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'Proyecto-certus1'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C6EAF43045B74CA08BE57B390875B568 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_AEB1D23EFA784837A90777F137180D63 }}
           package: '*.jar'
