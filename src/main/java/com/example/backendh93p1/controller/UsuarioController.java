@@ -3,7 +3,6 @@ package com.example.backendh93p1.controller;
 import com.example.backendh93p1.entity.RolEntity;
 import com.example.backendh93p1.entity.UsuarioRolEntity;
 import com.example.backendh93p1.entity.UsuariosEntity;
-import com.example.backendh93p1.repository.UsuarioRepository;
 import com.example.backendh93p1.services.UsuarioServices;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -13,7 +12,8 @@ import java.util.Set;
 
 @RestController
 @RequestMapping("/usuario")
-@CrossOrigin("http://localhost:4200/")
+@CrossOrigin("*")
+//@CrossOrigin("http://localhost:4200/")
 public class UsuarioController {
 
     @Autowired
